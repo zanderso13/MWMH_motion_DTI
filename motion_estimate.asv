@@ -1,6 +1,6 @@
 
 % Need a list of all folders
-flist = filenames(fullfile('/Users/zacharyanderson/Documents/ACNlab/MWMH/projects/b1108/data/MWMH/bids_directory/sub-*/ses-1/dwi'));
+flist = filenames(fullfile('/Users/zacharyanderson/Documents/ACNlab/MWMH/projects/b1108/data/MWMH/bids_directory/sub-*/ses-2/dwi'));
 
 for i = 1:length(flist)
     % spm is a little weird about how it wants folders input
